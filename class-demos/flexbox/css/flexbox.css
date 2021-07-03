@@ -1,0 +1,127 @@
+body{
+	font-family:helvetica, arial, sans-serif;
+	color:rgb(50,50,50);
+	margin:0px; /*Gets rid of the natural margin around the browser window edges*/
+}
+
+#container{ /*A box that will contain the entire website for centering purposes*/
+	width:100%; /*The container will try to fill the entire browser window width*/
+	max-width:960px; /*the maximum width the container will grow to */
+	margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
+	background-color:rgb(225,225,225);
+	padding:0px;
+	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
+
+	display:flex; /*changes display to flex-box; elements within box not taking up full width will align left to right*/
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:flex-start; /*flex-start, flex-end, center, stretch, space-between, space around*/
+	align-items:stretch; /*flex-end, center, stretch, baseline*/
+}
+
+header{
+	width:100%;
+	background-color:rgb(200,200,200);
+	padding:50px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+}
+
+nav{
+	width:100%;
+	background-color:rgb(200,200,200);
+	margin:10px 0px;
+	padding:0px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+}
+nav ul{
+	list-style-type: none; /*gets rid of bullet points  */
+	margin:0px;
+	padding:0px;
+}
+nav ul li{
+	display:inline-block; /*display left to right*/
+	margin:0px 50px;
+	background-color:rgb(150,150,150);
+	padding:10px;
+}
+nav a{
+	text-decoration:none;
+}
+
+article{
+	width:100%; /*keep in mind: 100% width of the container*/
+	background-color:rgb(200,200,200);
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+	/*The article needs its own flex properties since it contains sections 
+	which will be flexing*/
+	display:flex;
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:flex-start; /*flex-start, flex-end, center, stretch, space-between, space-around*/
+	align-items:stretch; /*flex-end, center, stretch, baseline*/
+}
+
+.fullwidth{
+	background-color:rgb(175,175,175);
+	margin:2%; /* apply to all sides */
+	width:96%; /* (100-2(2)=96) */
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.halfwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:46%; /* (100-2(2)=46) */
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.thirdwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:29.33333333%; /* ((1/3)-2(2)=29.3) */
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.quarterwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:21%; /* (25-2(2)=21) */
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.fifthwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:16%; /* (20-2(2)=16) */
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.sixthwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:12.66666666%; /*(16.6666666-2(2)=12.66666666)*/
+	padding:2%;
+	box-sizing:border-box;
+}
+
+.eighthwidth{
+	background-color:rgb(175,175,175);
+	margin:2%;
+	width:8.5%; /*(12.5-2(2)=8.5)*/
+	padding:2%;
+	box-sizing:border-box;
+}
+
+img{
+	max-width:100%;
+}

@@ -1,0 +1,230 @@
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.visualContent{
+    text-align:center;
+    max-width: 375px;
+    margin: auto;
+    margin-top: 4%;
+}
+.gameVisualContent{
+    text-align:center;
+    margin: auto;
+    height: 708px;
+    /* margin-top: 4%; */
+}
+
+#statsPic{
+    align-content: center;
+}
+#statsName{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+span{
+    text-align: center;
+    display: inline;
+    margin:0 auto;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9em;
+}
+p{
+    text-align: center;
+    display: inline;
+    margin:0 auto;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9em;
+}
+h1,h2{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5em;
+}
+
+#selectStarter {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #fff;
+    background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+    margin-bottom: 10px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#startGame{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#bf{
+    position: absolute;
+    z-index: -1;
+    left: 354px;
+    top: 125px;
+    margin-right: 0.25%;
+    border: 5px solid black;
+}
+#yourPokemon{
+    position: absolute;
+    left: 412px;
+    top: 288px;
+    z-index: 1;
+}
+#enemyPokemon{
+    position: absolute;
+    left: 756px;
+    top: 152px;
+    z-index: 1;
+}
+
+#enemy{
+    position: absolute;
+    left: 420px;
+    top: 200px;
+    z-index: 1;
+}
+#enemyHP{
+    position: absolute;
+    left: 420px;
+    top: 225px;
+    z-index: 1;
+}
+#player{
+    position: absolute;
+    left: 790px;
+    top: 370px;
+    z-index: 1;
+}
+#playerHP{
+    position: absolute;
+    left: 790px;
+    top: 395px;
+    z-index: 1;
+}
+#text{
+    position: absolute;
+    color: white;
+    left: 390px;
+    top: 490px;
+    z-index: 1;
+    font-size: 1.5em;
+    margin-right: 55%;
+}
+#buttonOne{
+    position: absolute;
+    left: 692px;
+    top: 485px;
+    z-index: 1;
+    /* design */
+    background-color: #b24945;
+    border: 2px solid black;
+    color: black;
+    width: 180px;
+    height: 100px;
+    padding: 30px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+}
+#buttonTwo{
+    position: absolute;
+    left: 870px;
+    top: 485px;
+    z-index: 1;
+    /* design */
+    background-color: #cf9540;
+    border: 2px solid black;
+    color: black;
+    width: 180px;
+    height: 100px;
+    padding: 30px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
+}
+#moveOne{
+    position: absolute;
+    left: 700px;
+    top: 485px;
+    z-index: 1;
+    /* design */
+    background-color: #79b46f;
+    border: 2px solid black;
+    color: black;
+    width: 180px;
+    height: 50px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.5em;
+    font-family: 'Press Start 2P', cursive;
+}
+#moveTwo{
+    position: absolute;
+    left: 870px;
+    top: 485px;
+    z-index: 1;
+    /* design */
+    background-color: #79b46f;
+    border: 2px solid black;
+    color: black;
+    width: 180px;
+    height: 50px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.5em;
+    font-family: 'Press Start 2P', cursive;
+}
+#moveThree{
+    position: absolute;
+    left: 700px;
+    top: 530px;
+    z-index: 1;
+    /* design */
+    background-color: #79b46f;
+    border: 2px solid black;
+    color: black;
+    width: 180px;
+    height: 50px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.5em;
+    font-family: 'Press Start 2P', cursive;
+}
+#moveFour{
+    position: absolute;
+    left: 870px;
+    top: 530px;
+    z-index: 1;
+    /* design */
+    background-color: #79b46f;
+    border: 2px solid black;
+    color: black;
+    width: 180px;
+    height: 50px;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.5em;
+    font-family: 'Press Start 2P', cursive;
+}

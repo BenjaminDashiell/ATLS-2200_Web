@@ -1,0 +1,187 @@
+body{
+	background-color:rgb(225,225,225);
+	font-size:5em;
+}
+
+.first{
+	display:none; /*"turns off" from the page. Hides it*/
+}
+
+.second{
+	display:none;
+}
+
+.third{
+	display:none;
+}
+
+.fourth{
+	display:none;
+}
+
+
+
+
+
+@media all and (max-width:550px){
+	/*media all does it for any type of browser/device*/
+	/*when the width is <= 550px, it will display .first*/
+	body{
+		background-color: rgb(50,50,50);
+	}
+
+	.first{
+		display:block;
+		color:rgb(225,225,225);
+	}
+
+}
+
+
+
+@media all and (min-width:551px) and (max-width:768px){
+
+	body{
+		background-color: rgb(200,200,200);
+	}
+
+	.second{
+		display:block;
+	}
+
+}
+
+
+@media all and (min-width:769px) and (max-width:1024px){
+
+	body{
+		background-color: rgb(150,150,150);
+	}
+
+	.third{
+		display:block;
+	}
+
+}
+
+
+@media all and (min-width:1025px){
+
+	body{
+		background-color: rgb(100,100,100);
+	}
+
+	.fourth{
+		display:block;
+	}
+}
+
+/*
+@media all and (max-width:480px){
+
+	body{
+		background-color: rgb(0,0,0);
+	}
+}
+
+@media all and (min-width:481px) and (max-width:500px){
+
+	body{
+		background-color: rgb(10,10,10);
+	}
+}
+
+@media all and (min-width:501px) and (max-width:520px){
+
+	body{
+		background-color: rgb(20,20,20);
+	}
+}
+
+@media all and (min-width:521px) and (max-width:540px){
+
+	body{
+		background-color: rgb(30,30,30);
+	}
+}
+
+@media all and (min-width:541px) and (max-width:560px){
+
+	body{
+		background-color: rgb(40,40,40);
+	}
+}
+
+@media all and (min-width:561px) and (max-width:580px){
+
+	body{
+		background-color: rgb(50,50,50);
+	}
+}
+
+@media all and (min-width:581px) and (max-width:600px){
+
+	body{
+		background-color: rgb(60,60,60);
+	}
+}
+
+@media all and (min-width:601px) and (max-width:620px){
+
+	body{
+		background-color: rgb(70,70,70);
+	}
+}
+
+@media all and (min-width:621px) and (max-width:640px){
+
+	body{
+		background-color: rgb(80,80,80);
+	}
+}
+
+@media all and (min-width:641px) and (max-width:660px){
+
+	body{
+		background-color: rgb(90,90,90);
+	}
+}
+
+@media all and (min-width:661px) and (max-width:680px){
+
+	body{
+		background-color: rgb(100,100,100);
+	}
+}
+
+@media all and (min-width:681px) and (max-width:700px){
+
+	body{
+		background-color: rgb(110,110,110);
+	}
+}
+
+@media all and (min-width:701px) and (max-width:720px){
+
+	body{
+		background-color: rgb(120,120,120);
+	}
+}
+
+@media all and (min-width:721px) and (max-width:740px){
+
+	body{
+		background-color: rgb(130,130,130);
+	}
+}
+
+
+
+
+
+*/
+
+
+
+
+

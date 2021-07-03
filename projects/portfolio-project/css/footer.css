@@ -1,0 +1,106 @@
+/* navigation bar css  */
+nav{
+	width:100%;
+	background-color:rgb(0,11,98);
+	margin:0px 0px;
+	padding:0px;
+	box-sizing:border-box;
+	text-align:center;
+}
+nav ul{
+	list-style-type: none; /*gets rid of bullet points  */
+	margin:0px;
+	padding:0px;
+}
+nav ul li{
+	display:inline-block;
+	/* margin:0px 50px; */
+	background-color:rgb(0,11,98);
+	padding:10px;
+}
+nav a{
+	text-decoration:none;
+	color: white;
+}
+
+a{
+	text-decoration:none;
+}
+/* body css */
+html{
+	padding: 0px;
+	margin:0px; /*Gets rid of the natural margin around the browser window edges*/
+}
+
+body{
+	margin:0px; /*Gets rid of the natural margin around the browser window edges*/
+}
+
+/* flex box container css */
+#container1{ /*A box that will contain the entire website for centering purposes*/
+	width:100%; /*The container will try to fill the entire browser window width*/
+	/* max-width:960px; the maximum width the container will grow to */
+	margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
+	background-color:rgb(225,225,225);
+	padding:0px;
+	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
+
+	display:flex; /*changes display to flex-box; elements within box not taking up full width will align left to right*/
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:center; /*flex-start, flex-end, center, stretch, space-between, space around*/
+	align-items:center; /*flex-end, center, stretch, baseline*/
+}
+
+/* flexbox css */
+.flexboxarticle{
+	width:100%; /*keep in mind: 100% width of the container*/
+	background-color:rgb(200,200,200);
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+
+	/*The article needs its own flex properties since it contains sections 
+	which will be flexing*/
+	display:flex;
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:center; /*flex-start, flex-end, center, stretch, space-between, space-around*/
+	align-items:center; /*flex-end, center, stretch, baseline*/
+}
+.fullwidth{
+	background-color:rgb(175,175,175);
+	width:100%;
+	box-sizing:border-box;
+	padding:0px;
+	align-content:center; /*flex-start, flex-end, center, stretch, space-between, space-around*/
+	align-items:center; /*flex-end, center, stretch, baseline*/
+}
+
+/* footer css */
+footer{
+	/* background-color:rgb(33,57,199); */
+	background-color:rgb(0,11,98);
+	width:100%;
+	max-height: 150px;
+	position: absolute;
+}
+
+/* other css settings */
+.logo{
+	display: block;
+	margin: auto;
+	padding: 20px;
+	align-content: center;
+}
+.footericons{
+	display:inline-block;
+	margin: auto;
+	vertical-align: middle;
+}
+.footertext{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+}

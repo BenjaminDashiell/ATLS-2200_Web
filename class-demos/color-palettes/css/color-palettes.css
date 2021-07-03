@@ -1,0 +1,134 @@
+/*https://color.adobe.com/create/color-wheel/*/
+/*https://visme.co/blog/website-color-schemes/*/
+
+body{
+	background-color:rgb(200, 200, 200);
+}
+
+h1{
+	color:rgb(48,48,48);
+	background-color:rgb(175,175,175);
+	font-family:Georgia, Garamond, "Times New Roman", Times, Serif;
+	font-size:4em;
+}
+
+h2, h3{
+	color:rgb(80,80,80);
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:3em;
+}
+
+h3{
+	font-size:2em;
+}
+
+p{
+	color:rgb(80,150,200);
+	background-color:rgb(50,50,50);
+	font-family:Helvetica, Arial, Verdana, Sans-Serif;
+	font-size:1.333em;
+}
+
+ul{
+	padding:0px;
+	list-style-type: none;
+}
+
+li{
+	display:inline-block;
+	margin:0px 20px;
+}
+
+a:link{
+	color:rgb(80,150,200);
+	font-size:16pt;
+}
+
+a:visited{
+	color:rgb(40,110,160);
+}
+
+a:hover{
+	color:rgb(120,190,240);
+}
+
+a:active{
+	color:rgb(140,210,255);
+}
+
+
+
+
+
+/*body{
+	background-color:rgb(255,255,255);
+}
+
+h1{
+	color:rgb(255,255,255);
+	background-color:rgb(96,72,127);
+}
+
+h2, h3{
+	color:rgb(96,72,127);
+}
+
+p{
+	color:rgb(255,255,255);
+	background-color:rgb(96,72,127);
+}
+
+a:link{
+	color:rgb(104,194,229);
+}
+
+a:visited{
+	color:rgb(120,136,191);
+}
+
+a:hover{
+	color:rgb(74,248,255);
+}
+
+a:active{
+	color:color:rgb(74,248,255);
+}*/
+
+
+
+
+
+/*body{
+	background-color:#659dbd;
+}
+
+h1{
+	color:#ffffff;
+	background-color:#8d8741;
+}
+
+h2, h3{
+	color:#ffffff
+}
+
+p{
+	color:#ffffff;
+	background-color:#8d8741;
+}
+
+a:link{
+	color:#daad86;
+}
+
+a:visited{
+	color:#bc986a;
+}
+
+a:hover{
+	color:#fbeec1;
+}
+
+a:active{
+	color:color:#fbeec1;
+}*/
+

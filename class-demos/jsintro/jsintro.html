@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<title>
+
+	</title>
+
+	<meta charset="utf-8">
+
+	<link href="css/jsintro.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+
+<p id="welcome">
+
+</p>
+
+<form>
+	First name:<br>
+	<input type="text" id="firstnametext" value="First Name">
+	<br>
+	Last name:<br>
+	<input type="text" id="lastnametext" value="Last Name">
+	<br>
+</form> 
+<button onclick="welcome()">Submit</button>
+
+<hr>
+
+<section id="images">
+	<img src="https://via.placeholder.com/170x250" alt="Placeholder" id="image1">
+	<img src="https://via.placeholder.com/170x250" alt="Placeholder" id="image2">
+	<img src="https://via.placeholder.com/170x250" alt="Placeholder" id="image3">
+	<br>
+	<button onclick="imageswap()">Swap Images</button>
+</section>
+
+<hr>
+
+<section id="rolloverimages">
+	<!-- <img src="https://via.placeholder.com/170x250" alt="Placeholder" id="image4" onmouseover="imagerollover('iron-man.jpg')"> -->
+	<!-- <img src="https://via.placeholder.com/170x250" alt="Placeholder" id="image5"> -->
+	<!-- <img src="https://via.placeholder.com/170x250" alt="Placeholder" id="image6"> -->
+	<img src="https://via.placeholder.com/170x250" alt="Placeholder" id="image4" onmouseover="imagerollover('image4', 'iron-man.jpg')">
+	<img src="https://via.placeholder.com/170x250" alt="Placeholder" id="image5" onmouseover="imagerollover('image5', 'storm.jpg')">
+	<img src="https://via.placeholder.com/170x250" alt="Placeholder" id="image6" onmouseover="imagerollover('image6', 'wolverine.jpg')">
+</section>
+
+<hr>
+
+<section>
+	<h2 id="cuheading">
+		Generic Text
+	</h2>
+	<img src="https://via.placeholder.com/170x250" alt="Placeholder" id="cubuilding">
+	<p id="cutext">
+		Lorem ipsum dolor sit amet.
+	</p>
+	<a href="#" id="culink">Somewhere</a>
+	<br>
+	<button onclick="macky()">Macky</button>
+</section>
+
+<button onclick="cssSwapper()">CSS Swapper</button>
+
+
+
+<script src="js/jsintro.js" type="text/javascript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+body{
+	margin:0px;
+}
+
+.wrapper { /*Contains the animation*/
+	position:relative;
+	width:800px; /*size of animation box*/
+	height:450px; /*size of animation box*/
+	background-color:#999999; /*color of animation box*/
+	overflow:hidden; /*ensures that content outside of box does not appear*/
+}
+
+
+.tam {
+	position: absolute; /*for positioning in box*/
+	top:0px; /*leave at 0 initially*/
+	left:0px; /*leave at 0 initially*/
+
+	/*Vendor prefixes - -webkit- -moz- -ms- -o-*/
+
+	animation-name:tam; /*name of animation.  each should be unique name*/
+	animation-duration:2s; /*length of animation*/
+	animation-iteration-count:2;/* how many times it repeats*/
+	animation-delay: 0s; /*delay before animation begins*/
+	animation-fill-mode: backwards; /*where animation objects end.  both is best option.  forwards, backwards, both*/
+	animation-timing-function:ease-in-out; /*behavior of animation.  easing creates acceleration and deceleration*/
+								/*linear ease ease-in ease-out ease-in-out cubic-bezier()*/
+								/*Cubic-Bezier - https://matthewlein.com/ceaser/*/
+}								
+
+.tamfull{
+	position: absolute;
+	top:0px;
+	left:0px;
+
+	animation-name:tamfull;
+	animation-duration:5s;
+	animation-iteration-count:1;
+	animation-delay: 0s;
+	animation-fill-mode: both;
+	animation-timing-function:cubic-bezier(0.415, -0.600, 0.600, 1.650);
+}
+
+@keyframes tam{
+	from{ /*start of animation*/
+		transform: translateY(200px) translateX(200px);
+		/*translateY(100px) translateX(100px) scaleY(.5) scaleX(.5) skewY(45deg) skewX(45deg) rotate(180deg)*/
+		/*opacity:0;
+		color:#ff0000;
+		font-size:1em;
+		background-color:rgb(255,0,0);
+		padding:10px;*/
+	}
+	
+	to{ /*end of animation*/
+		transform: translateY(0px) translateX(0px);
+		/*opacity:1;
+		color:#00ff00;
+		font-size:6em;
+		background-color:rgb(0,0,255);
+		padding:100px;*/
+	}
+}
+
+@keyframes tamfull{
+	0%{
+		transform: translateY(0px) translateX(0px) rotate(0deg);
+	}
+
+	50%{ /*you may add additional point in animation*/
+		transform: translateY(200px) translateX(0px) rotate(360deg);
+	}
+
+	100%{
+		transform: translateY(200px) translateX(200px) rotate(720deg);
+	}
+}
+
+
+.button {
+	background-color: rgb(225,225,225);
+	color: rgb(0,0,0);
+	width:25%;
+	padding: 5%;
+	margin: 5%;
+	box-sizing:border-box;
+	text-align: center;
+	font-size: 2em;
+	display:block;
+	transition: 1s; /*creates a transition to and from hover. s = seconds*/
+}
+
+.button:hover {
+	background-color: rgb(75,75,75);
+	color: rgb(200,200,200);
+}
+
+

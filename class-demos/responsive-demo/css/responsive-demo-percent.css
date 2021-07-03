@@ -1,0 +1,93 @@
+body{
+	margin:0px;
+	font-size:1em;
+}
+
+#wrapper{
+	background-color: #aaaaaa;
+	width:100%;
+	max-width:960px;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: wrap;
+	align-content: left;
+}
+
+header{
+	background-color: #336699;
+	width: 96%;
+	margin: .75em 2%;
+	box-sizing: border-box;
+}
+
+nav{
+	background-color: #336699;
+	width: 96%;
+	margin: .75em 2%;
+	padding:1em;
+	box-sizing: border-box;
+}
+
+article{
+	background-color: #999999;
+	width: 96%;
+	margin: .75em 2%;
+	box-sizing: border-box;
+	display:flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: wrap;
+	align-content: left;
+}
+
+.full-row{
+	background-color: #336699;
+	width: 96%;
+	margin: .75em 2%;
+	padding:1em;
+	box-sizing: border-box;
+}
+
+.half-row{
+	background-color: #336699;
+	width: 46%;
+	margin: .75em 2%;
+	padding:1em;
+	box-sizing: border-box;
+}
+
+.quarter-row{
+	background-color: #336699;
+	width: 21%;
+	margin: .75em 2%;
+	padding:1em;
+	box-sizing: border-box;	
+}
+
+footer{
+	background-color: #336699;
+	width: 96%;
+	margin: .75em 2%;
+	padding:3em;
+	box-sizing: border-box;
+	text-align:center;
+}
+
+h1, h2, h3{
+	margin:0px;
+}
+
+figure{
+	margin-left:0px;
+	width:100%;
+}
+
+img{
+	max-width:100%;
+	display:block;
+}
+

@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <!--Title Name In The Tab-->
+        <title>Totally Accurate Pokemon Showdown</title>
+        <meta charset="utf-8">
+        <link href="css/taps.css" rel="stylesheet" type="text/css">
+        <!-- Gaming Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script src="js/taps.js"></script>
+    </head>
+
+    <body>
+        <div class="visualContent">
+            <!--The Content-->
+            <!-- Choose Your Starter -->
+            <h1>Choose Your Starter</h1>
+            <!-- Drop down menu to see the staters -->
+            <select id="selectStarter" onchange="displayStarters()">
+                <option selected value="0">Choose an Starter...</option>
+                <option value="1">Rillaboom</option>
+                <option value="2">Cinderace</option>
+                <option value="3">Inteleon</option>
+            </select>
+            <br>
+            <!-- Visuals. Will change using JS -->
+            <img id="statsPic" src="img/pokeball-350x350.png" alt="pokeball-pokemon">
+            <div class="visualContent">
+                <h2 id="statsName">The Pokemon</h2>
+                <span id="statsHP">HP: 0</span>
+                <p>&nbsp;|&nbsp; </p>
+                <span id="statsAttack">Attack: 0</span>
+                <br>
+                <span id="statsDefense">Defense: 0</span>
+                <p>&nbsp;|&nbsp; </p>
+                <span id="statsSpeed">Speed: 0</span>    
+            </div>
+            <br>
+            <br>
+            <div style="text-align: center;">
+                <input id="startGame" type="button" value="Select Your Starter" onClick="rungame()">
+            </div>
+        </div>
+    </body>
+</html>

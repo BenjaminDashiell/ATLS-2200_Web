@@ -1,0 +1,112 @@
+body{
+    background-image: url(../img/background-image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ol.default{
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    padding-left: 55%;
+    padding-right: 15%;
+}
+ol.sources{
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 54%;
+    padding-right: 15%;
+}
+p.title{
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    padding-left: 50%;
+    padding-right: 15%;
+    padding-top: 5%;
+    color:rgb(51,51,51);
+}
+p.dateheader{
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1.5em;
+    padding-left: 50%;
+    padding-right: 15%;
+    padding-top: 5%;
+    color:rgb(0,0,0);
+}
+p.entry{
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1em;
+    padding-left: 50%;
+    padding-right: 15%;
+    color:rgb(51,51,51);
+}
+p.entry_yes{
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1em;
+    padding-left: 13%;
+    padding-right: 55%;
+    color:rgb(51,51,51);
+}
+p.source{
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding-left: 50%;
+    padding-right: 15%;
+    padding-top: 10%;
+    color:rgb(51,51,51);
+}
+pre{
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1.5em;
+    padding-left: 40%;
+}
+img{
+    padding-left: 50%;
+}
+p.footer{
+    padding-left: 10%;
+    padding-top: 50%;
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1.5em;
+}
+pre.footer_nav{
+    padding-left: 0%;
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 1.5em;
+}
+a.next_page{
+    padding-left: 80%;
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+}
+a.prev_page{
+    padding-left: 77%;
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+}
+a.story{
+    padding-left: 50%;
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 2em;
+}
+a.story_yes{
+    padding-left: 13%;
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 2em;
+}
+a.no{
+    font-family: 'Kalam', cursive, "Comic Sans MS", sans-serif;
+    font-size: 0.01em;
+}
+a:link{
+	color:rgb(51, 51, 51)
+}
+a:visited{
+	color:rgb(51, 51, 51)
+}
+a:hover{
+    cursor: url("../img/pencil-colored.cur"), auto;
+    color:rgb(80, 150, 200)
+}
