@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(154, 159, 152);    /*#9A9F98*/
+}
+h1{
+	font-size:3em;
+	color:rgb(34, 33, 39);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+	font-size:2.5em;
+    color:rgb(34, 33, 39);
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+	font-size:1.75em;
+    color:rgb(34, 33, 39);
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+	font-size:1.5em;
+    color: rgb(60, 60, 60);
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: larger;
+    color:rgb(34, 33, 39);
+}
+li{
+    font-size:20px;
+}
+a:link{
+	color:rgb(0, 109, 187)
+}
+a:visited{
+	color:rgb(124, 0, 186)
+}
+a:hover{
+	color:rgb(189, 227, 255)
+}

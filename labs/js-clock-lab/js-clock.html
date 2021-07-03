@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>
+		Creative Clock Lab
+	</title>
+
+	<link href="css/js-clock.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+
+<div id="wrapper">
+
+	<img id="water" src="img/water.jpg" alt="water">
+	<img id="hourglass" src="img/hourglass.png" alt="clock">
+
+	<div id="calendar">
+		<span>Today's Date | </span>
+		<span id="day">DayPlaceholder</span>,
+		<span id="month">MonthPlaceholder</span>
+		<span id="date">DayNumberPlaceholder</span>
+		<span id="year">YearPlaceholder</span>
+	</div>
+
+	<div id="timer">
+		<!-- span will appear together as one line on the page -->
+		<span>What's The Time? | </span>
+		<span id="hour">Hour</span>
+		:
+		<span id="minute">Minute</span>
+		:
+		<span id="second">Second</span>
+		<span id="meridiem">am-pm</span>
+	</div>
+	<p class="desc">The water level rises every sec, I swear. Do Inspect Element -> Console to see current height going up by very small intervals.</p>
+	<p class="desc">Note, the water clock resets every 12 hours. It will appear "empty" from 12-12:30</p>
+
+</div>
+
+<script src="js/clock.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+

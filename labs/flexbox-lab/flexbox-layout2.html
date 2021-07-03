@@ -1,0 +1,150 @@
+<!doctype html>
+
+<html lang="en">
+
+<title>
+	flexbox-layout2
+</title>
+
+<meta charset="utf-8">
+
+<link href="css/flexbox.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<!--keep in mind you can mix different width boxes in the same "row" as long as their total is under 100.
+		Otherwise, it'll move the boxes exceeding 100 to a new line
+	-->
+	<!-- Full Flexbox Guide - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
+
+	<div id=container>
+		<!-- div acts a box/container to contain our page and it's content -->
+		<!-- do automargin left and right to center the entire page with div -->
+
+		<header>
+			<h1>
+				Page Main Heading
+			</h1>
+			<h2>
+				Page Sub Heading
+			</h2>
+		</header>
+
+
+		<nav>
+			<ul>
+				<li>
+					<a href="flexbox-layout1.html">Link 1</a>
+				</li>
+				<li>
+					<a href="flexbox-layout2.html">Link 2</a>
+				</li>
+				<li>
+					<a href="flexbox-layout3.html">Link 3</a>
+				</li>
+				<li>
+					<a href="flexbox-frog-pic.html">Link 4</a>
+				</li>
+			</ul>
+		</nav>
+
+
+		<article>
+			<!--all images 500x500-->
+			<!-- two 1/6's, 1/3, and two 1/6's width flex boxes -->
+			<section class="sixthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="sixthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="thirdwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="sixthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="sixthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<!-- two rows of 1/8's width flex boxes -->
+			<!-- row 1 -->
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>		
+			<!-- row 2 -->
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="eighthwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<!-- two 1/4's and a 1/2 width flex boxes -->
+			<section class="quarterwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="quarterwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+			<section class="halfwidth">
+				<img src="https://via.placeholder.com/500x500" alt="html-checker-is-annoying">
+			</section>
+
+			<!-- fullwidth -->
+			<section class="fullwidth">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in nibh ac elit dignissim sodales vitae id sem. 
+				</p>
+			</section>
+		</article>
+
+
+		<footer>
+
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

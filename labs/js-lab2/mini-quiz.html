@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>JS Lab: Mini-Quiz</title>
+<link href="css/js-lab2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<a href="loops.html">
+    Loops Page
+</a>
+
+<h1>Welcome to the Mini-JavaScript Quiz</h1>
+<p>Credit for
+    <a href="https://www.crunchyroll.com/anime-feature/2019/05/21-1/quiz-which-hero-from-the-rising-of-the-shield-hero-are-you-editing">
+        inspiration
+    </a>
+</p>
+
+<p>
+    Answer the following questions to find out which hero you are from the anime "The Rising of the Shield Hero"? Btw, if you don't get Shield Hero, you did it wrong.
+</p>
+
+<br>
+
+        <!-- Question 1 -->
+    	1. What kind of friends do you have?
+    	<select id="question1">
+    		<option selected value="0">Choose an Answer...</option>
+        	<option value="1">I have many friends. We love going out to events together (remember when you used to able to do that?)</option>
+        	<option value="2">I have a few close group of friends that I care deeply about. We're pretty low-key, but always have fun when we send time together</option>
+            <option value="3">I have a balance of friends I go out with and close friends I send the most time with</option>
+            <option value="4">I have no friends (Depression)</option>
+        </select>
+		<br>
+
+        <!-- Question 2 -->
+		2. You're in school and you see someone getting bullied. What do you do?
+        <select id="question2">
+            <option selected value="0">Choose an Answer...</option>
+			<option value="1">Keep to myself. It ain't my problem.</option>
+            <option value="2">Attack the bullies</option>
+            <option value="3">Try to reason with the bullies and/or offer support the the victim once the bullies leave </option>
+            <option value="4">Pretend to not care and figure out to make them pay later in the future</option>
+        </select>
+		<br>
+
+        <!-- Question 3 -->
+		3. You're playing an game with friends and a group of monsters attacks! How do you handle it?
+    	<select id="question3">
+			<option selected value="0">Choose an Answer...</option>
+            <option value="1">Fight them up close and personal (close combat)</option>
+        	<option value="2">Let others do the fighting and be their support (healing)</option>
+            <option value="3">Keep your distance and use ranged attacks (weak)</option>
+            <option value="4">Use the power of god, friendship, and anime (ultimate move)</option>
+		</select>
+        <br>
+
+        <!-- Question 4 -->
+        4. How would you describe yourself?
+    	<select id="question4">
+			<option selected value="0">Choose an Answer...</option>
+            <option value="1">Capable and talented, but also arrogant and aloof</option>
+        	<option value="2">Cheerful and good-hearted, but also naive and gullible</option>
+            <option value="3">Intellgenet and dilgent, but also stubborn and hard-headed</option>
+            <option value="4">Kind and hard-working, but also untrusting and closed-off</option>
+		</select>
+        <br>
+
+<input type="button" value="Check Quiz" onClick="quizcheck()"><br>
+<br>
+
+<img src="https://via.placeholder.com/300" id="imagedisplay" alt="image">
+
+<p id="textdisplay">
+    placeholder text for your quiz result
+<p>
+
+<script src="js/lab-quiz.js" type="text/javascript"></script>
+
+</body>
+</html>

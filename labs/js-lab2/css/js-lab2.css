@@ -1,0 +1,9 @@
+body{
+    background-color:gray;
+}
+.container{
+    display: inline-block
+}
+figure{
+    display: inline-block
+}

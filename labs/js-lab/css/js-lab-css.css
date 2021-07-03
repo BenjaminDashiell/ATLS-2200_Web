@@ -1,0 +1,20 @@
+img{
+    height: 100%;
+    width: 640px;
+    padding: 20px;
+}
+body{
+    background-image: url(../img/gray.jpg);
+    background-repeat: no-repeat;
+}
+#content{
+    background-color: white;
+    /* background-image: url(../img/white.jpg); */
+    /* background-repeat: no-repeat; */
+}
+h1, p{
+    padding: 20px;
+}
+#description, #counter-check, #messageforgrader{
+    padding: 0px;
+}

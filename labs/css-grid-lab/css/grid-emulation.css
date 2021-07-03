@@ -1,0 +1,102 @@
+#container{
+	width:100%; /*The container will try to fill the entire browser window width*/
+	max-width:960px; /*the maximum width the container will grow to*/
+	height:auto;
+	margin:0px auto; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
+	background-color:rgb(150,150,150);
+	padding:0px;
+	box-sizing:border-box;/*Makes it so that padding does not add to a box's total width*/
+
+  	display: grid;
+  	grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  	grid-template-rows: 6% 4% 80% 10%; /*different sizing for the header, nav, article, footer*/
+}
+
+header{
+	background-color:rgb(200,200,200);
+	margin:10px;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-area: 1 / 1 / 2 / 9; /*row start, column start, row end, column end*/
+}
+nav{
+	background-color:rgb(200,200,200);
+	margin:10px;
+	box-sizing:border-box;
+	text-align:left; /*left, right, center, justify*/
+	grid-area: 2 / 1 / 3 / 9; /*row start, column start, row end, column end*/
+}
+nav ul{
+	list-style-type: none; /*gets rid of bullet points  */
+	margin:0px;
+	padding:0px;
+}
+nav ul li{
+	display:inline-block; /*display left to right*/
+	margin:0px;
+	background-color:rgb(0,0,0);
+	padding:10px;
+}
+article{
+	background-color:rgb(200,200,200);
+	margin:10px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-area: 3 / 1 / 4 / 9; /*row start, column start, row end, column end*/
+
+	/*article has it's own mini grid*/
+	display: grid;
+	grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  	grid-template-rows: 14% 22% 22% 20% 22%; /*different sizing for the header, nav, article, footer*/
+}
+
+.articlefull{
+	background-color:rgb(180,180,180);
+	margin:10px;
+	padding:20px;
+	align-content: center;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-column-end: span 15;
+	/*article has it's own mini grid*/
+	display: grid;
+	grid-template-columns: repeat(60, 1.666666%);
+	/*different sizing for article, article-half, article-quarter heights*/
+}
+.articlethird{
+	background-color:rgb(180,180,180);
+	margin:10px;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-column-end: span 20;
+}
+.articlefifth{
+	background-color:rgb(180,180,180);
+	margin:10px;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-column-end: span 12;
+}
+.articlequarter{
+	background-color:rgb(180,180,180);
+	margin:10px 5%;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-column-end: span 15;
+}
+
+footer{
+	background-color:rgb(200,200,200);
+	margin:10px;
+	box-sizing:border-box;
+	text-align:center; /*left, right, center, justify*/
+	grid-area: 4 / 1 / 5 / 9; /*row start, column start, row end, column end*/
+}
+
+img{
+	align-content: center;
+}
